@@ -1,0 +1,27 @@
+generator client {
+  provider             = "prisma-client-py"
+  recursive_type_depth = 5
+}
+
+datasource db {
+  provider = "postgresql" // bisa juga "postgresql", "mysql", dll
+  url      = env("DATABASE_URL")
+}
+
+generator db {
+  provider = "prisma-client-py"
+  config_option = "value"
+}
+
+model Data_Participant {
+  id                Int      @id @default(autoincrement())
+  kode_paket    BigInt
+  nama_paket  String
+  LPSE  String
+  Nama_Peserta  String
+  Alasan String?
+  Skor_Teknis String?
+  Harga_Terkoreksi BigInt
+  Skor_Akhir String?
+}
+
