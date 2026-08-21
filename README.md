@@ -1,6 +1,6 @@
 <H1>Read Me</H1>
 <P> ini merupakan contoh latihan python yang dibuat dan dilakukan oleh Jasa Pribhuni Pada latihan ini terdapat sejumlah sesi seperti </P>
-<list> [[Latihan 1]] penggunaan python secara biasa</list>
+<list> [[Latihan 1]] penggunaan python secara biasa/n </list>
 <list>[[Latihan 2]] looping for dan while , switch case</list>
 <list> [[Latihan 3]] import data excel, membaca sejumlah file excel di dalam suatu folder lalu menyatukannya. </list>
 <list>[[Latihan 4]] membuka dan membersihkan data-data  Rp. 0,00 di bawah 80% Nilai HPS menjadi seperti berikut ini  Rp. 0,00</list>
