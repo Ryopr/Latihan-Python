@@ -7,8 +7,9 @@ B=2; print(B)
 
 print(A+B)
 
-C="penjumlahan sederhana"
+C="penjumlahan"
 
+print(C)
 print(C)
 
 for i in range(10):
